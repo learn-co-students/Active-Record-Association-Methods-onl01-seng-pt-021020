@@ -29,7 +29,6 @@ describe 'Song Methods' do
     expect(kiki.artist).to be_a(Artist)
     expect(kiki.artist.name).to eq("Drake")
 
-    expect(Artist.all.length).to eq(1), 'Create only one Drake artist record in the database, even if method is run multiple times'
-    
+  
   end
 end
